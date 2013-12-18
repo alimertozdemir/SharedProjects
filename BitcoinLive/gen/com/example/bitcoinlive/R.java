@@ -44,9 +44,10 @@ public final class R {
         public static final int mtgox=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
-        public static final int imgSplash=0x7f090004;
-        public static final int pbWait=0x7f090005;
+        public static final int action_settings=0x7f090007;
+        public static final int btnMain=0x7f090004;
+        public static final int imgSplash=0x7f090005;
+        public static final int pbWait=0x7f090006;
         public static final int tvMain1=0x7f090000;
         public static final int tvMain2=0x7f090001;
         public static final int tvMain3=0x7f090002;
