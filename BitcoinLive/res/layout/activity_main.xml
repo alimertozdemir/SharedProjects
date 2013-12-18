@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.25"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/bitcoin" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:text="High"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvMain1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.25"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:paddingLeft="5dp"
+            android:src="@drawable/mtgox" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="High"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvMain2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.25"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/btce" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="High"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvMain3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.25"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btcchina" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:text="High"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvMain4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:textSize="20dp" />
+    </LinearLayout>
+    
+
+</LinearLayout>
